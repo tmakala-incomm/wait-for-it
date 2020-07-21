@@ -45,6 +45,8 @@ wait-for-it.sh: timeout occurred after waiting 1 seconds for www.google.com:81
 wait-for-it.sh: strict mode, refusing to execute subprocess
 ```
 
+# Comment
+
 If you don't want to execute a subcommand, leave off the `--` argument.  This way, you can test the exit condition of `wait-for-it.sh` in your own scripts, and determine how to proceed:
 
 ```
